@@ -84,10 +84,11 @@ const ContactForm = () => {
 
         {/* 3D Image at Bottom Right */}
         <img
-          src="laptop wave.png" // Replace with actual 3D image URL
-          alt="3D Character"
-          className="absolute -bottom-10 right-10 w-64 md:w-64"
-        />
+        src="laptop wave.png" // Replace with actual 3D image URL
+  alt="3D Character"
+  className="absolute -bottom-10 right-10 w-40 sm:w-48 md:w-64"
+/>
+
       </div>
     </div>
   );

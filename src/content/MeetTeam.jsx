@@ -22,7 +22,7 @@ const teamMembers = [
   {
     name: "Bishal Bandari",
     role: "Tech Developer & Designer",
-    image: "Bishal.PNG",
+    image: "Bishal.jpeg",
     skills: ["React Development", "UX/UI Design", "Frontend Development", "Angular Development"]
   },
   {
@@ -36,7 +36,12 @@ const teamMembers = [
     role: "Designer & Frontend Developer",
     image: "Gaurav.PNG",
     skills: ["Frontend Development", "UX/UI Design", "Web Design", "Figma Development", "Cross-Browser Compatibility", "TypeScript", "Vue"]
-  }
+  },{
+   name: "Sanket",
+    role: "Tech Developer & Designer",
+    image: "Sanket.jpeg",
+    skills: ["React Development", "Sales", "Marketing", "SEO (Search Engine Optimization)", "Automated Testing",]
+  },
 ];
 
 const MeetTeam = () => {
