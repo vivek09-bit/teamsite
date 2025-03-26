@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Header, { Sidebar } from "./content/Header";
 import HeroSection from "./content/HeroSection";
 import AboutTeamIgnite from "./content/AboutTeamIgnite";
@@ -51,8 +51,10 @@ const App = () => {
       {/* Footer - Wrapping up with essential links */}
       <Footer />
 
-      {/* Cursor Animation - UI enhancement */}
-      <CursorAnimation />
+      {/* Cursor Animation - Show only on desktop */}
+      <div className="hidden md:block">
+        <CursorAnimation />
+      </div>
     </div>
   );
 };
