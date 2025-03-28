@@ -2,7 +2,8 @@ import React from "react";
 
 const Header = ({ toggleMenu }) => {
   return (
-    <header className="bg-yellow-500 text-white p-3 md:p-2 lg:p-3 sm:p-2 mx-4 md:mx-10 my-2 rounded-full flex justify-between items-center shadow-lg">
+    <header className="bg-yellow-500 text-white p-3 md:p-2 lg:p-3 sm:p-2 md:mx-10 my-2 rounded-full flex justify-between items-center shadow-lg">
+
       <div className="flex items-center space-x-2">
         {/* Logo Placeholder */}
         <div className="w-12 h-12 bg-gray-300 rounded-full flex items-center justify-center text-black font-bold text-lg lg:text-xl">
@@ -51,12 +52,12 @@ export const Sidebar = ({ isOpen, toggleMenu }) => {
         <nav className="mt-16 px-6">
           <ul className="space-y-4 text-lg font-medium">
             <li><a href="#hero" className="block p-3 hover:bg-yellow-400 rounded-lg">Home</a></li>
-            <li><a href="#about" className="block p-3 hover:bg-yellow-400 rounded-lg">About</a></li>
+            {/* <li><a href="#about" className="block p-3 hover:bg-yellow-400 rounded-lg">About</a></li> */}
             <li><a href="#why-choose-us" className="block p-3 hover:bg-yellow-400 rounded-lg">Why Us</a></li>
-            <li><a href="#services" className="block p-3 hover:bg-yellow-400 rounded-lg">Services</a></li>
+            {/* <li><a href="#services" className="block p-3 hover:bg-yellow-400 rounded-lg">Services</a></li> */}
             <li><a href="#skills" className="block p-3 hover:bg-yellow-400 rounded-lg">Skills</a></li>
-            <li><a href="#experience" className="block p-3 hover:bg-yellow-400 rounded-lg">Experience</a></li>
             <li><a href="#projects" className="block p-3 hover:bg-yellow-400 rounded-lg">Projects</a></li>
+            {/* <li><a href="#experience" className="block p-3 hover:bg-yellow-400 rounded-lg">Experience</a></li> */}
             <li><a href="#team" className="block p-3 hover:bg-yellow-400 rounded-lg">Meet The Team</a></li>
             <li><a href="#contact" className="block p-3 hover:bg-yellow-400 rounded-lg">Contact</a></li>
           </ul>

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Certificate() {
   return (
-    <section id="CERTIFIFCATES" className="max-w-screen-xl mx-auto pt-16 px-6">
+    <section id="certificate" className="max-w-screen-xl mx-auto pt-16 px-6">
       <h2 className="text-5xl font-bold text-yellow-400 mb-10 text-center">
         Certificates
       </h2>

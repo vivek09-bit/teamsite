@@ -6,7 +6,7 @@ const ContactForm = () => {
       <div className="relative bg-white w-full max-w-6xl p-8 rounded-3xl shadow-lg">
         {/* Title */}
         <h2 className="text-4xl font-bold text-center relative text-black">
-          Contact <span className="text-black">Me</span>
+          Contact <span className="text-black">Us</span>
         </h2>
 
         {/* Form Fields */}
@@ -52,7 +52,7 @@ const ContactForm = () => {
               />
             </div>
             {/* Subject */}
-            <div className="flex items-center border bg-gray-100 px-4 py-3 rounded-full">
+            {/* <div className="flex items-center border bg-gray-100 px-4 py-3 rounded-full">
               <span className="text-gray-500">📌</span>
               <input
                 type="text"
@@ -61,7 +61,7 @@ const ContactForm = () => {
                 required
                 className="bg-transparent outline-none w-full px-2 text-black"
               />
-            </div>
+            </div> */}
           </div>
 
           {/* Message */}

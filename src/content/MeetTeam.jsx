@@ -46,7 +46,7 @@ const teamMembers = [
 
 const MeetTeam = () => {
   return (
-    <section id="Team" className="flex flex-col items-center py-12 px-4">
+    <section id="team" className="flex flex-col items-center py-12 px-4">
       <h1 className="text-5xl font-extrabold text-yellow-400 mb-8">Meet Our Team</h1>
       
       <div className="bg-black rounded-lg p-8 w-full max-w-6xl shadow-lg">

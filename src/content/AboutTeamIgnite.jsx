@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutTeamIgnite = () => {
   return (
-    <section className="bg-black py-12 px-6 md:px-16 lg:px-32">
+    <section id="about" className="bg-black py-12 px-6 md:px-16 lg:px-32">
       <div className="max-w-6xl mx-auto text-center">
         {/* <h2 className="text-4xl font-bold text-gray-900 mb-6">
           About <span className="text-blue-600">Team Ignite</span>

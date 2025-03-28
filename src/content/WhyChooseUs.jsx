@@ -2,7 +2,7 @@ import React from "react";
 
 const WhyChooseUs = () => {
   return (
-    <section className="bg-black py-12 px-6 md:px-16 lg:px-24 text-center">
+    <section id="why-choose-us"className="bg-black py-12 px-6 md:px-16 lg:px-24 text-center">
       <h2 className="text-4xl font-bold text-white mb-6">Why Choose Team Ignite?</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         

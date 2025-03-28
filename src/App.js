@@ -11,6 +11,9 @@ import MeetTeam from "./content/MeetTeam";
 import ContactForm from "./content/ContactForm";
 import Footer from "./content/Footer";
 import CursorAnimation from "./content/CursorAnimation";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import ThankYou from "./ThankYou";
+
 // import Certificate from "./content/Certificate"; // Uncomment if needed
 
 const App = () => {
@@ -40,7 +43,7 @@ const App = () => {
       <Exp />
 
       {/* Projects - Demonstrating real-world applications */}
-      <Projects />
+      {/* <Projects /> */}
 
       {/* Meet the Team - Personal connection with your audience */}
       <MeetTeam />
